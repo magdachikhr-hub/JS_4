@@ -24,7 +24,7 @@ let sliceTwo = challenge.slice(5, 23);
 console.log(sliceTwo);
 console.log(challenge.slice(challenge.indexOf("D")));
 // 8
-let includesScript = challenge.includes("script");
+let includesScript = challenge.includes("Script");
 console.log(includesScript);
 
 //smth else
@@ -37,3 +37,20 @@ console.log("\u205C \u2465 \u2466 \u205C \u265B");
 
 // indexOf - გადავცეთ ჩარაქტერი, სიმბოლო და დაგვიბრუნებს ინდექსს
 // charAt - გადავცემთ ინდექსს, დაგვიბრუნებს მასე არსებულ ჩარაქტერს, სიმბოლოს
+
+const country = "georgia";
+const telNumber = 588558855;
+
+let home = "tbilisi";
+console.log(typeof home);
+
+home = 2000;
+console.log(typeof home);
+
+home = true;
+console.log(typeof home);
+
+const academy = "itvet";
+console.log(academy);
+
+
