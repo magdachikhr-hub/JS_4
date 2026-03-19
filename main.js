@@ -50,7 +50,11 @@ console.log(typeof home);
 home = true;
 console.log(typeof home);
 
-const academy = "itvet";
+const academy = "itvet ";
 console.log(academy);
 
+//repeat
+console.log(academy.repeat(300));
 
+const talk = " love you ";
+console.log(talk.repeat(10));
